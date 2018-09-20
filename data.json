@@ -1,0 +1,105 @@
+[
+    {
+        "name": "SHARP"
+    },
+    {
+        "name": "InFocus",
+        "children": [
+            {
+                "name": "938",
+                "children": [
+                    {
+                        "name": "LCD-60SU470A-938",
+                        "children":[
+                            {"name": "test"}
+                        ]
+                    },
+                    {
+                        "name": "LCD-70SU470A-01"
+                    },
+                    {
+                        "name": "LCD-80SU470A-01"
+                    },
+                    {
+                        "name": "LCD-90SU470A-01"
+                    },
+                    {
+                        "name": "LCD-10SU470A-01"
+                    },
+                    {
+                        "name": "LCD-20SU470A-01"
+                    }
+                ]
+            },
+            {
+                "name": "928",
+                "children": [
+                    {
+                        "name": "LCD-60SU470A-928"
+                    },
+                    {
+                        "name": "LCD-70SU470A-01"
+                    },
+                    {
+                        "name": "LCD-80SU470A-01"
+                    },
+                    {
+                        "name": "LCD-90SU470A-01"
+                    },
+                    {
+                        "name": "LCD-10SU470A-01"
+                    },
+                    {
+                        "name": "LCD-20SU470A-01"
+                    }
+                ]
+            },
+            {
+                "name": "918",
+                "children": [
+                    {
+                        "name": "LCD-60SU470A-918"
+                    },
+                    {
+                        "name": "LCD-70SU470A-01"
+                    },
+                    {
+                        "name": "LCD-80SU470A-01"
+                    },
+                    {
+                        "name": "LCD-90SU470A-01"
+                    },
+                    {
+                        "name": "LCD-10SU470A-01"
+                    },
+                    {
+                        "name": "LCD-20SU470A-01"
+                    }
+                ]
+            },
+            {
+                "name": "828",
+                "children": [
+                    {
+                        "name": "LCD-60SU470A-828"
+                    },
+                    {
+                        "name": "LCD-70SU470A-01"
+                    },
+                    {
+                        "name": "LCD-80SU470A-01"
+                    },
+                    {
+                        "name": "LCD-90SU470A-01"
+                    },
+                    {
+                        "name": "LCD-10SU470A-01"
+                    },
+                    {
+                        "name": "LCD-20SU470A-01"
+                    }
+                ]
+            }
+        ]
+    }
+]

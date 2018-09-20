@@ -1,0 +1,119 @@
+{
+    "maxLevel": 4,
+    "datas": [
+        {
+            "name": "全国",
+            "id": "0",
+            "parentId": null,
+            "level": "1"
+        },
+        {
+            "name": "广东",
+            "id": "01",
+            "parentId": "0",
+            "level": "2"
+        },
+        {
+            "name": "深圳",
+            "id": "011",
+            "parentId": "01",
+            "level": "3"
+        },
+        {
+            "name": "南山",
+            "id": "0111",
+            "parentId": "011",
+            "level": "4"
+        },
+        {
+            "name": "福田",
+            "id": "0112",
+            "parentId": "011",
+            "level": "4"
+        },
+        {
+            "name": "罗湖",
+            "id": "0113",
+            "parentId": "011",
+            "level": "4"
+        },
+        {
+            "name": "广州",
+            "id": "012",
+            "parentId": "01",
+            "level": "3"
+        },
+        {
+            "name": "珠海",
+            "id": "013",
+            "parentId": "01",
+            "level": "3"
+        },
+        {
+            "name": "佛山",
+            "id": "014",
+            "parentId": "01",
+            "level": "3"
+        },
+        {
+            "name": "东莞",
+            "id": "015",
+            "parentId": "01",
+            "level": "3"
+        },
+        {
+            "name": "江苏",
+            "id": "02",
+            "parentId": "0",
+            "level": "2"
+        },
+        {
+            "name": "南京",
+            "id": "021",
+            "parentId": "02",
+            "level": "3"
+        },
+        {
+            "name": "无锡",
+            "id": "022",
+            "parentId": "02",
+            "level": "3"
+        },
+        {
+            "name": "泰州",
+            "id": "023",
+            "parentId": "02",
+            "level": "3"
+        },
+        {
+            "name": "北京",
+            "id": "03",
+            "parentId": "0",
+            "level": "2"
+        },
+        {
+            "name": "上海",
+            "id": "04",
+            "parentId": "0",
+            "level": "2"
+        },
+        {
+            "name": "福建",
+            "id": "05",
+            "parentId": "0",
+            "level": "2"
+        },
+        {
+            "name": "厦门",
+            "id": "051",
+            "parentId": "05",
+            "level": "3"
+        },
+        {
+            "name": "福州",
+            "id": "052",
+            "parentId": "05",
+            "level": "3"
+        }
+    ]
+}

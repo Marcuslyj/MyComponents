@@ -1,0 +1,173 @@
+{
+    "maxLevel": 5,
+    "datas": [
+        {
+            "name": "SHARP",
+            "id": "1",
+            "parentId": null,
+            "level": "1"
+        },
+        {
+            "name": "InFocus",
+            "id": "2",
+            "parentId": null,
+            "level": "1"
+        },
+        {
+            "name": "938",
+            "id": "21",
+            "parentId": "2",
+            "level": "2"
+        },
+        {
+            "name": "LCD-60SU470A-938",
+            "id": "211",
+            "parentId": "21",
+            "level": "3"
+        },
+        {
+            "name": "lcc2111",
+            "id": "2111",
+            "parentId": "211",
+            "level": "4"
+        },
+        {
+            "name": "lcc21111",
+            "id": "21111",
+            "parentId": "2111",
+            "level": "5"
+        },
+        {
+            "name": "lcc2112",
+            "id": "2112",
+            "parentId": "211",
+            "level": "4"
+        },
+        {
+            "name": "LCD-70SU470A-01",
+            "id": "212",
+            "parentId": "21",
+            "level": "3"
+        },
+        {
+            "name": "LCD-80SU470A-01",
+            "id": "213",
+            "parentId": "21",
+            "level": "3"
+        },
+        {
+            "name": "LCD-90SU470A-01",
+            "id": "214",
+            "parentId": "21",
+            "level": "3"
+        },
+        {
+            "name": "LCD-10SU470A-01",
+            "id": "215",
+            "parentId": "21",
+            "level": "3"
+        },
+        {
+            "name": "LCD-20SU470A-01",
+            "id": "216",
+            "parentId": "21",
+            "level": "3"
+        },
+        {
+            "name": "928",
+            "id": "22",
+            "parentId": "2",
+            "level": "2"
+        },
+        {
+            "name": "LCD-60SU470A-928",
+            "id": "221",
+            "parentId": "22",
+            "level": "3"
+        },
+        {
+            "name": "lcc2211",
+            "id": "2211",
+            "parentId": "221",
+            "level": "4"
+        },
+        {
+            "name": "lcc2212",
+            "id": "2212",
+            "parentId": "221",
+            "level": "4"
+        },
+        {
+            "name": "LCD-70SU470A-928",
+            "id": "222",
+            "parentId": "22",
+            "level": "3"
+        },
+        {
+            "name": "LCD-80SU470A-928",
+            "id": "223",
+            "parentId": "22",
+            "level": "3"
+        },
+        {
+            "name": "LCD-90SU470A-928",
+            "id": "224",
+            "parentId": "22",
+            "level": "3"
+        },
+        {
+            "name": "LCD-10SU470A-928",
+            "id": "225",
+            "parentId": "22",
+            "level": "3"
+        },
+        {
+            "name": "LCD-20SU470A-928",
+            "id": "226",
+            "parentId": "22",
+            "level": "3"
+        },
+        {
+            "name": "918",
+            "id": "23",
+            "parentId": "2",
+            "level": "2"
+        },
+        {
+            "name": "LCD-60SU470A-918",
+            "id": "231",
+            "parentId": "23",
+            "level": "3"
+        },
+        {
+            "name": "LCD-70SU470A-918",
+            "id": "232",
+            "parentId": "23",
+            "level": "3"
+        },
+        {
+            "name": "LCD-80SU470A-918",
+            "id": "233",
+            "parentId": "23",
+            "level": "3"
+        },
+        {
+            "name": "LCD-90SU470A-918",
+            "id": "234",
+            "parentId": "23",
+            "level": "3"
+        },
+        {
+            "name": "LCD-10SU470A-918",
+            "id": "235",
+            "parentId": "23",
+            "level": "3"
+        },
+        {
+            "name": "LCD-20SU470A-918",
+            "id": "236",
+            "parentId": "23",
+            "level": "3"
+        }
+    ]
+}

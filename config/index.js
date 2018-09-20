@@ -10,18 +10,11 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {
-      'https://dev-web-services.tvflnet.com': {
-        target: 'https://dev-web-services.tvflnet.com',
-        changeOrigin: true,
-        pathRewrite: {
-          '^https://dev-web-services.tvflnet.com': '/'
-        }
-      },
-    },
+    proxyTable: {},
 
     // Various Dev Server settings
-    host: 'localhost', // can be overwritten by process.env.HOST
+    // host: '10.130.200.253', // can be overwritten by process.env.HOST
+    host:'localhost',
     port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: false,
     errorOverlay: true,

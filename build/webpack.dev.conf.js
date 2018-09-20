@@ -10,6 +10,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 const portfinder = require('portfinder')
 
+
+//首先
+var appData = require('../data.json')//加载本地数据文件
+var appData2 = require('../data2.json')//加载本地数据文件
+var data_district = require('../district.json')
+// 
+
 const HOST = process.env.HOST
 const PORT = process.env.PORT && Number(process.env.PORT)
 
@@ -42,7 +49,29 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     quiet: true, // necessary for FriendlyErrorsPlugin
     watchOptions: {
       poll: config.dev.poll,
+    },
+    //然后
+    before(app) {
+      app.get('/api/data', (req, res) => {
+        res.json({
+          errno: 0,
+          data: appData
+        })//接口返回json数据，上面配置的数据seller就赋值给data请求后调用
+      }),
+        app.get('/api/data2', (req, res) => {
+          res.json({
+            errno: 0,
+            data: appData2
+          })//接口返回json数据，上面配置的数据seller就赋值给data请求后调用
+        }),
+        app.get('/api/district', (req, res) => {
+          res.json({
+            errno: 0,
+            data: data_district
+          })//接口返回json数据，上面配置的数据seller就赋值给data请求后调用
+        })
     }
+    //
   },
   plugins: [
     new webpack.DefinePlugin({
@@ -85,8 +114,8 @@ module.exports = new Promise((resolve, reject) => {
           messages: [`Your application is running here: http://${devWebpackConfig.devServer.host}:${port}`],
         },
         onErrors: config.dev.notifyOnErrors
-        ? utils.createNotifierCallback()
-        : undefined
+          ? utils.createNotifierCallback()
+          : undefined
       }))
 
       resolve(devWebpackConfig)
