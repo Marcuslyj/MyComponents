@@ -1,4 +1,5 @@
 <template>
+<!-- 支持二次选择 -->
   <div class="wrapper">
     <div class="ivu-transfer">
       <!-- 左侧 -->
@@ -1051,6 +1052,11 @@ export default {
       this.checkAll_left= false;
       this.checkAll_right= false;
       this.selected= [];
+
+      this.data_2th = [];
+      this.checked_2th = [];
+      this.checkAll_2th = false;
+      this.selected_2th = [];
     },
     //树结构转一维数组
     treeToArr(treeData,clearAttrs = true,reserves){
@@ -1115,6 +1121,12 @@ export default {
     },
     //对外,带已选的初始化,1.根据传入的type请求;
     initWithSelected(data){
+      //id转字符串
+      if(data.data && data.data.length){
+        data.data.forEach((item,index) =>{
+          data.data[index] = data.data[index].toString();
+        });
+      }
       //先初始化，
       //清数据据
       this.clearData();

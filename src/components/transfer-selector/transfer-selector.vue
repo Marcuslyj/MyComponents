@@ -855,6 +855,12 @@ export default {
     },
     //对外,带已选的初始化,1.根据传入的type请求;
     initWithSelected(data){
+      //id转字符串
+      if(data.data && data.data.length){
+        data.data.forEach((item,index) =>{
+          data.data[index] = data.data[index].toString();
+        });
+      }
       //先初始化，
       //清数据据
       this.clearData();
