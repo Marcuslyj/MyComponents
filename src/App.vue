@@ -3,6 +3,7 @@
     <div class="tab-wrapper">
       <router-link to="/basic" active-class="tabActive">基本使用</router-link>
       <router-link to="/secondSelect" active-class="tabActive">二次选择</router-link>
+      <router-link to="/secondSelectLeaf" active-class="tabActive">二次选择(结果只包括叶节点)</router-link>
     </div>
 
 
