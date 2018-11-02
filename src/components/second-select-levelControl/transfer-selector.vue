@@ -1,5 +1,5 @@
 <template>
-<!-- 支持二次选择 -->
+<!-- 支持二次选择，支持只能选择叶节点配置 -->
   <div class="wrapper">
     <div class="ivu-transfer">
       <!-- 左侧 -->
@@ -927,7 +927,7 @@ export default {
           });
 
           //如果不全（或只能选择叶节点），把父级删除
-          if (allSibs.length > nowSibs.length || this.onlyLeaf) {
+          if (allSibs.length > nowSibs.length || this.onlyLeaf == '1') {
             let parentIds = [];
 
             let parent_now = nodesArr.filter(item => {
